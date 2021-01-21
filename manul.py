@@ -24,10 +24,16 @@ async def on_message(message):
         return
 
     afiq_ammar_responses = ["diam la afiq ammar", "diam bodo afiq ammar",
-                            "tak lawak afiq ammar", "bende bodo afiq ammar"]
+                            "tak lawak afiq ammar", "bende bodo afiq ammar", "sudah la afiq ammar"]
+
+    megat_responses = ["diam la megat", "diam bodo megat",
+                       "tak lawak megat", "bende bodo megat", "sudah la megat"]
 
     if message.author.id == 701689699260956724:
         response = random.choice(afiq_ammar_responses)
+        await message.channel.send(response)
+    elif message.author.id == 636985287897120798:
+        response = random.choice(megat_responses)
         await message.channel.send(response)
 
 client.run(TOKEN)
