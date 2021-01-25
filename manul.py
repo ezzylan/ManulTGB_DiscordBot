@@ -31,8 +31,7 @@ async def on_message(message):
     if message.author.id == 701689699260956724:
         response = random.choice(afiq_ammar_responses)
         await message.channel.send(response)
-
-    if 'sorry' in message.content or 'soghi' in message.content:
+    elif 'sorry' in message.content or 'soghi' in message.content:
         response = random.choice(sorry_responses)
         await message.channel.send(response)
 
