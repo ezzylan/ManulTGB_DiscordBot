@@ -1,2 +1,2 @@
-# ManulTGB_discordbot_python
-This Discord bot will react to everything Afiq Ammar says in Kelab Penyayang.
+# ManulTGB_DiscordBot
+This bot will react to messages from Kelab Penyayang based on the personality of Luqmanul Hakim TGB.
