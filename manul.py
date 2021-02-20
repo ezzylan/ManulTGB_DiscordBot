@@ -26,7 +26,8 @@ async def on_message(message):
     afiq_ammar_responses = ["diam la afiq ammar", "diam bodo afiq ammar",
                             "tak lawak afiq ammar", "bende bodo afiq ammar",
                             "sudah la afiq ammar", "buto ah afiq ammar",
-                            "dah la afiq ammar, gi main bully tu"]
+                            "dah la afiq ammar, gi main bully tu", "cringe bodo afiq ammar",
+                            "diam bodo afiq ammar, dah la main fifa tak pandai, baik tak yah main"]
 
     sorry_responses = ["don't be sorry, be better", "takpe, jangan buat lagi"]
 
