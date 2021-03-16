@@ -31,8 +31,13 @@ async def on_message(message):
 
     sorry_responses = ["don't be sorry, be better", "takpe, jangan buat lagi"]
 
+    manul_responses = ["jangan lah begitu"]
+
     if message.author.id == 701689699260956724:
         response = random.choice(afiq_ammar_responses)
+        await message.channel.send(response)
+    elif message.author.id == 693060533976301629:
+        response = random.choice(manul_responses)
         await message.channel.send(response)
     elif 'sorry' in message.content or 'soghi' in message.content:
         response = random.choice(sorry_responses)
