@@ -39,8 +39,10 @@ async def on_message(message):
     elif message.author.id == 693060533976301629:
         response = random.choice(manul_responses)
         await message.channel.send(response)
-    elif 'sorry' in message.content or 'soghi' in message.content:
+    elif 'sorry' in message.content or 'soghi' in message.content or 'sori' in message.content or 'maaf' in message.content:
         response = random.choice(sorry_responses)
         await message.channel.send(response)
+    elif 'buto' in message.content:
+        await message.channel.send('apa buto buto ni, tak baik mencarut')
 
 client.run(TOKEN)
