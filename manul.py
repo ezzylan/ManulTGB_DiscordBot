@@ -44,5 +44,7 @@ async def on_message(message):
         await message.channel.send(response)
     elif 'buto' in message.content:
         await message.channel.send('apa buto buto ni, tak baik mencarut')
+    elif 'oi' in message.content:
+        await message.channel.send('amende oi oi ni, cakap elok2 boleh tak')
 
 client.run(TOKEN)
